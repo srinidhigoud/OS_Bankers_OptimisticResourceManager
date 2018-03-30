@@ -7,10 +7,10 @@
 #SBATCH --mem=10GB
 #SBATCH --time=00:20:00
 #SBATCH --partition=c32_41
-
+#SBATCH --output=out.%j
 
 #Uncomment to execute C code
 module load gcc-6.2.0
 g++ -std=c++11 -c main.cpp Tasks.cpp Bank.cpp OptimRes.cpp
 g++ main.o Tasks.o Bank.o OptimRes.o
-./a.out input.txt
+./a.out input1.txt
