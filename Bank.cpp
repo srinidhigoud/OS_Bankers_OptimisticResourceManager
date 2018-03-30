@@ -2,6 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <algorithm>
 #include <tuple> 
 #include <unordered_map>
 #include <sstream>

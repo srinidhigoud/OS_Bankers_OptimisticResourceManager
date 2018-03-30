@@ -3,6 +3,7 @@
 #include <vector>
 #include <string>
 #include <tuple> 
+#include <algorithm>
 #include <unordered_map>
 #include <sstream>
 using namespace std;
