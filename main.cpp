@@ -9,7 +9,7 @@
 ***************************************************/
 ///g++ -std=c++11 -c main.cpp Tasks.cpp Bank.cpp OptimRes.cpp
 ///g++ main.o Tasks.o Bank.o OptimRes.o
-///./a.out input.txt
+///./a.out input1.txt
 
 
 #include <iostream>

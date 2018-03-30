@@ -1,0 +1,229 @@
+---------------------------------Bankers Algorithm------------------------------------
+Cycle 0
+Task 1 initiated
+Task 2 initiated
+
+End of cycle 1
+
+Task 1 delayed 4
+Task 2 delayed 4
+
+End of Cycle 2
+
+Task 1 delayed 3
+Task 2 delayed 3
+
+End of Cycle 3
+
+Task 1 delayed 2
+Task 2 delayed 2
+
+End of Cycle 4
+
+Task 1 delayed 1
+Task 2 delayed 1
+
+End of Cycle 5
+
+Task 1 delayed 0
+Task 2 delayed 0
+
+End of Cycle 6
+
+Task 1 requested 1 resource for 1 units
+Task 2's request cannot be granted as it is not a safe state (blocked in running)
+
+End of Cycle 7
+
+Blocked states:
+	Task 2's request cannot be granted as it is not a safe state
+Task 1 delayed 4
+
+End of Cycle 8
+
+Blocked states:
+	Task 2's request cannot be granted as it is not a safe state
+Task 1 delayed 3
+
+End of Cycle 9
+
+Blocked states:
+	Task 2's request cannot be granted as it is not a safe state
+Task 1 delayed 2
+
+End of Cycle 10
+
+Blocked states:
+	Task 2's request cannot be granted as it is not a safe state
+Task 1 delayed 1
+
+End of Cycle 11
+
+Blocked states:
+	Task 2's request cannot be granted as it is not a safe state
+Task 1 delayed 0
+
+End of Cycle 12
+
+Blocked states:
+	Task 2's request cannot be granted as it is not a safe state
+Task 1 released 1 for 1 units
+
+End of Cycle 13
+
+Blocked states:
+	Task 2 requested 1 resource for 1 units
+Task 1 delayed 4
+
+End of Cycle 14
+
+Task 2 delayed 4
+Task 1 delayed 3
+
+End of Cycle 15
+
+Task 2 delayed 3
+Task 1 delayed 2
+
+End of Cycle 16
+
+Task 2 delayed 2
+Task 1 delayed 1
+
+End of Cycle 17
+
+Task 2 delayed 1
+Task 1 delayed 0
+Task 1 terminated
+
+End of Cycle 18
+
+Task 2 delayed 0
+
+End of Cycle 19
+
+Task 2 released 1 for 1 units
+
+End of Cycle 20
+
+Task 2 delayed 4
+
+End of Cycle 21
+
+Task 2 delayed 3
+
+End of Cycle 22
+
+Task 2 delayed 2
+
+End of Cycle 23
+
+Task 2 delayed 1
+
+End of Cycle 24
+
+Task 2 delayed 0
+Task 2 terminated
+
+End of Cycle 25
+
+Task	1	18	0	0 %
+Task	2	25	7	28 %
+Total	 	43	7	16.2791 %
+---------------------------------Optimisitic Resource Manager------------------------------------
+Cycle 0
+Task 1 initiated
+Task 2 initiated
+
+End of cycle 1
+
+Task 1 delayed 4
+Task 2 delayed 4
+
+End of Cycle 2
+
+Task 1 delayed 3
+Task 2 delayed 3
+
+End of Cycle 3
+
+Task 1 delayed 2
+Task 2 delayed 2
+
+End of Cycle 4
+
+Task 1 delayed 1
+Task 2 delayed 1
+
+End of Cycle 5
+
+Task 1 delayed 0
+Task 2 delayed 0
+
+End of Cycle 6
+
+Task 1 requested 1 for 1 units
+Task 2 requested 1 for 1 units
+
+End of Cycle 7
+
+Task 1 delayed 4
+Task 2 delayed 4
+
+End of Cycle 8
+
+Task 1 delayed 3
+Task 2 delayed 3
+
+End of Cycle 9
+
+Task 1 delayed 2
+Task 2 delayed 2
+
+End of Cycle 10
+
+Task 1 delayed 1
+Task 2 delayed 1
+
+End of Cycle 11
+
+Task 1 delayed 0
+Task 2 delayed 0
+
+End of Cycle 12
+
+Task 1 released 1 for 1 units
+Task 2 released 1 for 1 units
+
+End of Cycle 13
+
+Task 1 delayed 4
+Task 2 delayed 4
+
+End of Cycle 14
+
+Task 1 delayed 3
+Task 2 delayed 3
+
+End of Cycle 15
+
+Task 1 delayed 2
+Task 2 delayed 2
+
+End of Cycle 16
+
+Task 1 delayed 1
+Task 2 delayed 1
+
+End of Cycle 17
+
+Task 1 delayed 0
+Task 1 terminated
+Task 2 delayed 0
+Task 2 terminated
+
+End of Cycle 18
+
+Task	1	18	0	0 %
+Task	2	18	0	0 %
+Total	 	36	0	0 %

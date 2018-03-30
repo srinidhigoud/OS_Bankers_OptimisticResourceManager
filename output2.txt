@@ -1,0 +1,73 @@
+---------------------------------Bankers Algorithm------------------------------------
+Cycle 0
+Task 1 initiated
+Task 2 initiated
+
+End of cycle 1
+
+Task 1 requested 1 resource for 1 units
+Task 2's request cannot be granted as it is not a safe state (blocked in running)
+
+End of Cycle 2
+
+Blocked states:
+	Task 2's request cannot be granted as it is not a safe state
+Task 1 requested 1 resource for 3 units
+
+End of Cycle 3
+
+Blocked states:
+	Task 2's request cannot be granted as resource is not available
+Task 1 released 1 for 4 units
+Task 1 terminated
+
+End of Cycle 4
+
+Blocked states:
+	Task 2 requested 1 resource for 1 units
+
+End of Cycle 5
+
+Task 2 requested 1 resource for 3 units
+
+End of Cycle 6
+
+Task 2 released 1 for 4 units
+Task 2 terminated
+
+End of Cycle 7
+
+Task	1	4	0	0 %
+Task	2	7	3	42.8571 %
+Total	 	11	3	27.2727 %
+---------------------------------Optimisitic Resource Manager------------------------------------
+Cycle 0
+Task 1 initiated
+Task 2 initiated
+
+End of cycle 1
+
+Task 1 requested 1 for 1 units
+Task 2 requested 1 for 1 units
+
+End of Cycle 2
+
+Task 1's request cannot be granted (blocked)
+Task 2's request cannot be granted (blocked)
+Task 1 has been aborted
+
+End of Cycle 3
+
+Blocked states: 
+	Task 2 requested 1 for 3 units
+
+End of Cycle 4
+
+Task 2 released 1 for 4 units
+Task 2 terminated
+
+End of Cycle 5
+
+Task	1	aborted
+Task	2	5	1	20 %
+Total	 	5	1	20 %

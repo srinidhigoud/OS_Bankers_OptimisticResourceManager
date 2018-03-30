@@ -1,0 +1,234 @@
+---------------------------------Bankers Algorithm------------------------------------
+Cycle 0
+Task 1 initiated
+Task 2 initiated
+Task 3 initiated
+
+End of cycle 1
+
+Task 1 initiated
+Task 2 initiated
+Task 3 initiated
+
+End of Cycle 2
+
+Task 1 initiated
+Task 2 initiated
+Task 3 initiated
+
+End of Cycle 3
+
+Task 1 requested 1 resource for 1 units
+Task 2's request cannot be granted as resource is not available 
+Task 3's request cannot be granted as resource is not available 
+
+End of Cycle 4
+
+Blocked states:
+	Task 2's request cannot be granted as resource is not available
+	Task 3's request cannot be granted as resource is not available
+Task 1 released 1 for 1 units
+
+End of Cycle 5
+
+Blocked states:
+	Task 2 requested 1 resource for 4 units
+	Task 3's request cannot be granted as resource is not available
+Task 1's request cannot be granted as resource is not available 
+
+End of Cycle 6
+
+Blocked states:
+	Task 3's request cannot be granted as resource is not available
+	Task 1's request cannot be granted as resource is not available
+Task 2 requested 2 resource for 1 units
+
+End of Cycle 7
+
+Blocked states:
+	Task 3's request cannot be granted as resource is not available
+	Task 1's request cannot be granted as resource is not available
+Task 2 requested 3 resource for 1 units
+
+End of Cycle 8
+
+Blocked states:
+	Task 3's request cannot be granted as resource is not available
+	Task 1's request cannot be granted as resource is not available
+Task 2 released 1 for 4 units
+
+End of Cycle 9
+
+Blocked states:
+	Task 3's request cannot be granted as it is not a safe state
+	Task 1's request cannot be granted as it is not a safe state
+Task 2 released 2 for 1 units
+
+End of Cycle 10
+
+Blocked states:
+	Task 3's request cannot be granted as it is not a safe state
+	Task 1's request cannot be granted as it is not a safe state
+Task 2 released 3 for 1 units
+Task 2 terminated
+
+End of Cycle 11
+
+Blocked states:
+	Task 3 requested 1 resource for 4 units
+	Task 1's request cannot be granted as resource is not available
+
+End of Cycle 12
+
+Blocked states:
+	Task 1's request cannot be granted as resource is not available
+Task 3 requested 3 resource for 1 units
+
+End of Cycle 13
+
+Blocked states:
+	Task 1's request cannot be granted as resource is not available
+Task 3 released 3 for 1 units
+
+End of Cycle 14
+
+Blocked states:
+	Task 1's request cannot be granted as resource is not available
+Task 3 released 1 for 4 units
+Task 3 terminated
+
+End of Cycle 15
+
+Blocked states:
+	Task 1 requested 1 resource for 3 units
+
+End of Cycle 16
+
+Task 1 requested 2 resource for 1 units
+
+End of Cycle 17
+
+Task 1 released 2 for 1 units
+
+End of Cycle 18
+
+Task 1 released 1 for 3 units
+Task 1 terminated
+
+End of Cycle 19
+
+Task	1	19	10	52.6316 %
+Task	2	11	2	18.1818 %
+Task	3	15	8	53.3333 %
+Total	 	45	20	44.4444 %
+---------------------------------Optimisitic Resource Manager------------------------------------
+Cycle 0
+Task 1 initiated
+Task 2 initiated
+Task 3 initiated
+
+End of cycle 1
+
+Task 1 initiated
+Task 2 initiated
+Task 3 initiated
+
+End of Cycle 2
+
+Task 1 initiated
+Task 2 initiated
+Task 3 initiated
+
+End of Cycle 3
+
+Task 1 requested 1 for 1 units
+Task 2's request cannot be granted (blocked)
+Task 3's request cannot be granted (blocked)
+
+End of Cycle 4
+
+Blocked states: 
+	Task 2's request cannot be granted
+	Task 3's request cannot be granted
+Task 1 released 1 for 1 units
+
+End of Cycle 5
+
+Blocked states: 
+	Task 2 requested 1 for 4 units
+	Task 3's request cannot be granted
+Task 1's request cannot be granted (blocked)
+
+End of Cycle 6
+
+Blocked states: 
+	Task 3's request cannot be granted
+	Task 1's request cannot be granted
+Task 2 requested 2 for 1 units
+
+End of Cycle 7
+
+Blocked states: 
+	Task 3's request cannot be granted
+	Task 1's request cannot be granted
+Task 2 requested 3 for 1 units
+
+End of Cycle 8
+
+Blocked states: 
+	Task 3's request cannot be granted
+	Task 1's request cannot be granted
+Task 2 released 1 for 4 units
+
+End of Cycle 9
+
+Blocked states: 
+	Task 3 requested 1 for 4 units
+	Task 1's request cannot be granted
+Task 2 released 2 for 1 units
+
+End of Cycle 10
+
+Blocked states: 
+	Task 1's request cannot be granted
+Task 3 requested 3 for 1 units
+Task 2 released 3 for 1 units
+Task 2 terminated
+
+End of Cycle 11
+
+Blocked states: 
+	Task 1's request cannot be granted
+Task 3 released 3 for 1 units
+
+End of Cycle 12
+
+Blocked states: 
+	Task 1's request cannot be granted
+Task 3 released 1 for 4 units
+Task 3 terminated
+
+End of Cycle 13
+
+Blocked states: 
+	Task 1 requested 1 for 3 units
+
+End of Cycle 14
+
+Task 1 requested 2 for 1 units
+
+End of Cycle 15
+
+Task 1 released 2 for 1 units
+
+End of Cycle 16
+
+Task 1 released 1 for 3 units
+Task 1 terminated
+
+End of Cycle 17
+
+Task	1	17	8	47.0588 %
+Task	2	11	2	18.1818 %
+Task	3	13	6	46.1538 %
+Total	 	41	16	39.0244 %
